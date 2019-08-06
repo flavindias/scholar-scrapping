@@ -79,7 +79,7 @@ class AppController {
 
 
     // Bundle API routes.
-    this.express.use('/api', require('./routes')(passport));
+    this.express.use('/v1', require('./routes')(passport));
 
     // Pegando todas as rotas.
     this.express.get('*', function(req, res) {

@@ -1,6 +1,7 @@
 const routes = require('express').Router();
 const multer = require('multer'),
   multerConfig = require('../config/multer');
+const ScrappingController = require('../src/app/controller/ScrappingController');
 
 var APIRoutes = function(passport) {
   /*
@@ -13,6 +14,7 @@ var APIRoutes = function(passport) {
 
 
   // routes.post('/cephalograms/demo', multer(multerConfig).single("file"), CephalogramController.demo);
+  routes.get('/scrappings', ScrappingController.getChilds);
 
   //Redirect to home
 
