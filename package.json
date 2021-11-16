@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/flavindias/scholar-scrapping#readme",
   "dependencies": {
-    "aws-sdk": "^2.504.0",
+    "aws-sdk": "^2.814.0",
     "babel": "^6.23.0",
     "babel-cli": "^6.26.0",
     "body-parser": "^1.19.0",
